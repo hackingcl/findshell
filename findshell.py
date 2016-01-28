@@ -152,8 +152,7 @@ try:
 			palabra = palabra_array[i]
 			# Guardamos el resultado en el log
 			datos += u'  '.join((" [+] Posible archivo malicioso -------> ",archivo)).encode('utf-8').strip() + "\n"
-			datos += u'  '.join((" [>] Coincidencia encontrada: --------> ",palabra)).encode('utf-8').strip() + "\n"
-			datos += u'  '.join((" [>] En la linea: --------------------> ",linea)).encode('utf-8').strip() + "\n\n"
+			datos += u'  '.join((" [>] Coincidencia encontrada: --------> ",palabra)).encode('utf-8').strip() + "\n\n"
 
 		if len(exec_array) > 0:
 			for i in xrange(0,len(exec_array)):
